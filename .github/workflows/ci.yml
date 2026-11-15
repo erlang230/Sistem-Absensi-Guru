@@ -1,0 +1,45 @@
+name: CI - Sistem Absensi Guru
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Testing Project SAG
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Cek syntax PHP
+        run: |
+          find . -name "*.php" \
+            -not -path "./uploads/*" \
+            -not -path "./chatbot-backend/node_modules/*" \
+            -print0 | xargs -0 -n1 php -l
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: chatbot-backend/package-lock.json
+
+      - name: Install dependency Node.js
+        working-directory: chatbot-backend
+        run: npm ci
+
+      - name: Jalankan testing Node.js
+        working-directory: chatbot-backend
+        run: npm test --if-present
