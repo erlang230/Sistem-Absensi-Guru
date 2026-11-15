@@ -1,0 +1,18 @@
+# Environment & sensitive credentials
+.env
+*.env
+.env.*
+chatbot-backend/.env
+chatbot-backend/*.env
+
+# Dependencies
+node_modules/
+chatbot-backend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
