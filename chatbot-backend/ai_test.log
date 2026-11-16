@@ -1,0 +1,4 @@
+[2026-11-14 03:14:25] TEST_CONN Gemini | Model: gemini-3.5-flash | HTTP: 200 | CurlErr: none
+[2026-11-14 03:14:35] TEST_CONN Gemini | Model: model-tidak-ada-xyz | HTTP: 404 | CurlErr: none
+[2026-11-14 03:15:43] TEST_CONN Gemini | Model: gemini-3.5-flash | HTTP: 200 | CurlErr: none
+[2026-11-14 03:15:51] TEST_CONN Gemini | Model: gemini-3.5-flash | HTTP: 200 | CurlErr: none

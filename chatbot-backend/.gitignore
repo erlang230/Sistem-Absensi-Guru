@@ -1,0 +1,16 @@
+# Abaikan folder node_modules agar tidak masuk ke repository Git
+node_modules/
+
+# Abaikan file .env dan file konfigurasi runtime agar API key dan kredensial sensitif tidak ikut repository
+.env
+*.env
+.env.*
+ai_config.json
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
