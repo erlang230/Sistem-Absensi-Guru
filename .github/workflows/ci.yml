@@ -9,12 +9,12 @@ on:
       - main
 
 jobs:
-  test:
-    name: Testing Project SAG
+  php-check:
+    name: Cek Syntax PHP
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup PHP
@@ -22,24 +22,32 @@ jobs:
         with:
           php-version: '8.2'
 
-      - name: Cek syntax PHP
+      - name: Cek PHP
         run: |
           find . -name "*.php" \
-            -not -path "./uploads/*" \
-            -not -path "./chatbot-backend/node_modules/*" \
-            -print0 | xargs -0 -n1 php -l
+          -not -path "./uploads/*" \
+          -not -path "./chatbot-backend/node_modules/*" \
+          -print0 | while IFS= read -r -d '' file; do
+            php -l "$file"
+          done
+
+  node-check:
+    name: Cek Node.js
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: chatbot-backend/package-lock.json
 
-      - name: Install dependency Node.js
+      - name: Install dependency
         working-directory: chatbot-backend
         run: npm ci
 
-      - name: Jalankan testing Node.js
+      - name: Jalankan test
         working-directory: chatbot-backend
         run: npm test --if-present
