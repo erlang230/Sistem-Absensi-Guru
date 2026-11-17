@@ -10,9 +10,9 @@
 | **Program Studi** | Teknik Informatika |
 | **Tema Topik Kelompok** | Sistem Absensi Untuk SMK |
 | **Institusi Mitra / Studi Kasus** | SMK NU Wargabinangun |
-| **Repositori Publik Pribadi** | [Isi Link Repository GitHub] |
-| **Desain UI/UX (Figma)** | [Isi Link Figma] |
-| **Berkas Dokumen Lengkap (PDF)** | [Isi Link / Lokasi File PDF] |
+| **Repositori Publik Pribadi** | (https://github.com/erlang230/Sistem-Absensi-Guru) |
+| **Desain UI/UX (Figma)** | https://www.figma.com/design/D531Hp6vLNJrbYQhoZ70YO/Untitled?node-id=0-1&p=f&t=cAgnJkcGCEOZvL67-0 |
+| **Berkas Dokumen Lengkap (PDF)** | https://drive.google.com/file/d/1647_gx-3Rt2VbXy0Nmj8Q-ng2HWx0Bao/view?usp=sharing |
 ---
 
 ## 2. Tema atau Topik Kelompok
