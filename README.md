@@ -436,7 +436,7 @@ Endpoint kesehatan backend digunakan untuk mengetahui apakah layanan chatbot sed
 
 **Link Video YouTube:**
 
-[ISI LINK VIDEO YOUTUBE DI SINI]
+(https://youtu.be/Uz0f_pZmWXo?si=GYJjCrNNzsFz2cqq)
 
 ---
 
