@@ -5,7 +5,7 @@
 | Atribut | Keterangan |
 |---|---|
 | **Nama** | Rafi Erlangga Dwi Tama |
-| **NIM** | [41257240 |
+| **NIM** | 41257240 |
 | **Kelas** | 1C - 2025 |
 | **Program Studi** | Teknik Informatika |
 | **Tema Topik Kelompok** | Sistem Absensi Untuk SMK |
