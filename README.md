@@ -1,20 +1,23 @@
 # Sistem Absensi Guru (SAG)
 
-## 1. Identitas Anggota Kelompok
+## 1.  Identitas Mahasiswa & Proyek RPL
 
-| No | Nama | NIM | Kelas | Program Studi |
-|---|---|---|---|---|
-| 1 | irandha Tiara Safana | 41257166 | 1C - 2025 | Teknik Informatika |
-| 2 | Nihlah Auliya | 41257146 | 1C - 2025 | Teknik Informatika |
-| 3 | Novi Fitriani | 41257148 | 1C - 2025 | Teknik Informatika |
-| 4 | Winarti | 41257148 | 1C - 2025 | Teknik Informatika |
-| 5 | Rafi Erlangga Dwi Tama | 41257240 | 1C - 2025 | Teknik Informatika |
-
+| Atribut | Keterangan |
+|---|---|
+| **Nama** | Rafi Erlangga Dwi Tama |
+| **NIM** | [41257240 |
+| **Kelas** | 1C - 2025 |
+| **Program Studi** | Teknik Informatika |
+| **Tema Topik Kelompok** | Sistem Absensi Untuk SMK |
+| **Institusi Mitra / Studi Kasus** | SMK NU Wargabinangun |
+| **Repositori Publik Pribadi** | [Isi Link Repository GitHub] |
+| **Desain UI/UX (Figma)** | [Isi Link Figma] |
+| **Berkas Dokumen Lengkap (PDF)** | [Isi Link / Lokasi File PDF] |
 ---
 
 ## 2. Tema atau Topik Kelompok
 
-**	Absensi Digital SMK NU Wargabinangun**
+**Sistem Absensi Guru (SAG) Berbasis Web dengan Integrasi Artificial Intelligence (AI)**
 
 Sistem ini merupakan aplikasi berbasis web yang digunakan untuk mengelola proses absensi guru, jadwal mengajar, data guru, laporan kehadiran, pengingat absensi melalui email, serta menyediakan chatbot AI untuk membantu pengguna mendapatkan informasi berdasarkan data yang tersedia pada sistem.
 
